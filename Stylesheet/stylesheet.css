@@ -1,0 +1,254 @@
+
+            .body {
+            max-width: 1366px;
+            max-height: fit-content;
+            background-color: #FFFCFC;
+            }
+            .navigation {
+                display: flex;
+                justify-content: space-between;
+            }
+            .topnav {
+            overflow: hidden;
+            }
+
+            .topnav a {
+            float: left;
+            color: #A04612;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 27px;
+            float: right;
+            }
+            .hero-image {
+            padding-top: 100px;
+            padding-bottom: 10px;
+            padding-left: 135px;
+            text-align: center;
+            max-width: 100%;
+            height: auto;
+            }
+            .header {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 43px;
+            color: #A04612;
+            text-align: center;
+            }
+            .dining {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 59px;
+            color: #A04612;
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-color: #C3B172;
+            }
+            .menu-flex {
+            display: flex;
+            text-align: center;
+            padding-left: 200px;
+            padding-right: 100px;
+            }
+            .menu-image {
+            border-radius: 25px;
+            }
+            .menu-button {
+            align-items: center;
+            width: 150px;
+            height: 10px;
+            margin: auto;
+            padding-bottom: 125px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 45px;
+            text-decoration: underline;
+            text-decoration-color: #C3B172;
+            color: #A04612;
+            }
+            .order-flex {
+             display: flex;
+            text-align: center;
+            padding-right: 200px;
+            padding-left: 100px;
+            }
+            .order-button {
+            align-items: center;
+            width: 150px;
+            height: 10px;
+            margin: auto;
+            padding-bottom: 125px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 45px;
+            text-decoration: underline;
+            text-decoration-color: #C3B172;
+            color: #A04612;
+            }
+            .order-image {
+            border-radius: 25px;
+            }
+            .reservation-flex {
+            display: flex;
+            text-align: center;
+            padding-left: 200px;
+            padding-right: 325px;
+            }
+            .reservation-image {
+            border-radius: 25px;
+            }
+            .reservation-button {
+            align-items: center;
+            width: 150px;
+            height: 10px;
+            margin: auto;
+            padding-bottom: 125px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            text-decoration: underline;
+            text-decoration-color: #C3B172;
+            color: #A04612;
+            }
+            .giftcards-flex {
+            display: flex;
+            text-align: center;
+            padding-right: 200px;
+            padding-left: 100px;
+            }
+            .giftcards-button {
+            align-items: center;
+            width: 150px;
+            height: 10px;
+            margin: auto;
+            padding-bottom: 125px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            text-decoration: underline;
+            text-decoration-color: #C3B172;
+            color: #A04612;
+            }
+            .giftcards-image {
+            border-radius: 25px;
+            }
+            .about-us-image {
+            border-radius: 25px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            }
+            .about-us {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            text-decoration: underline;
+            text-decoration-color: #C3B172;
+            color: #A04612;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            padding-left: 450px;
+            }
+            .paragraph {
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                color: #A04612;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                padding-right: 15px;
+                }
+                .press-flex {
+                    display: flex;
+                    text-align: center;
+                    padding-left: 200px;
+                    padding-right: 100px;
+                    }
+                    .press-image {
+                    border-radius: 25px;
+                    }
+                    .press-button {
+                    align-items: center;
+                    width: 150px;
+                    height: 10px;
+                    margin: auto;
+                    padding-bottom: 125px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 45px;
+                    text-decoration: underline;
+                    text-decoration-color: #C3B172;
+                    color: #A04612;
+                    }
+                .contact-us {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 40px;
+                    text-decoration: underline;
+                    text-decoration-color: #C3B172;
+                    color: #A04612;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 50%;
+                    padding-left: 450px;
+                    }
+                .final-logo {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 25%;
+                    height: 25%;
+                    padding-left: 75px;
+                }
+                .fade--in, .fade--in-2 {
+                    opacity: 0;
+                }
+                .fade--in.active, .fade--in-2.active {
+                    animation-name: fade-in;
+                    animation-fill-mode: forwards;
+                    animation-duration: 2s;
+                }
+                .scale--up, .scale--up-2 {
+                    opacity: 0;
+                }
+                .scale--up.active, .scale--up-2.active {
+                    animation-name: scale-up;
+                    animation-duration: 2s;
+                    animation-fill-mode: forwards;
+                }
+                @keyframes fade-in {
+                    0% {
+                        opacity: 0;
+                        transform: translateY(200px);
+                    }
+                    100% {
+                        opacity: 1;
+                        transform: translateY(0);   
+                    }
+                }
+                @keyframes scale-up {
+                    0% {
+                        opacity: 0;
+                        transform: scale(0);
+                    }
+                    50% {
+                        transform: scale(1.2);
+                    }
+                    100% {
+                        opacity: 1;
+                        transform: scale(1);
+                    }
+                }
+                .rotate.active {
+                        animation-name: rotate;
+                        animation-duration: 2s;
+                        animation-timing-function: ease-in-out;
+                        animation-fill-mode: forwards;
+                    }
+                @keyframes rotate {
+                    0% {
+                        transform: rotate(0deg);
+                    }
+                    100% {
+                        transform: rotate(360deg);
+                    }
+                }
